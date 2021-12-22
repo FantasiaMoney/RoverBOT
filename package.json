@@ -1,0 +1,37 @@
+{
+  "name": "new-tg-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoTraderCore/new-tg-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CoTraderCore/new-tg-bot/issues"
+  },
+  "homepage": "https://github.com/CoTraderCore/new-tg-bot#readme",
+  "dependencies": {
+    "@haileybot/captcha-generator": "^1.7.0",
+    "@sendgrid/mail": "^6.2.1",
+    "axios": "^0.21.1",
+    "dotenv": "^5.0.1",
+    "moment": "^2.22.2",
+    "mysql": "^2.15.0",
+    "node-telegram-bot-api": "^0.53.0",
+    "oauth-1.0a": "^2.2.4",
+    "twitter-v2": "^1.1.0",
+    "util": "^0.12.4",
+    "web3": "^1.5.2",
+    "web3-utils": "^1.5.2",
+    "winston": "^2.4.2",
+    "winston-papertrail": "^1.0.5"
+  }
+}
