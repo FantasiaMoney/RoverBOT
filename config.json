@@ -1,8 +1,24 @@
 {
   "TASKS":[
     {
+      "link": "https://discord.com/invite/56zVtS4y",
+      "description": "Join"
+    },
+    {
       "link": "https://bitcointalk.org/index.php?topic=5377944.0",
       "description": "Make comment in our BitcoinTalk announcement"
+    },
+    {
+      "link": "t.me/RoverDAOcom",
+      "description": "Join"
+    },
+    {
+      "link": "https://www.instagram.com/reel/CXZy4naKO4H/?utm_medium=copy_link",
+      "description": "Like"
+    },
+    {
+      "link": "https://sweepwidget.com/view/44987-tsabyzdl",
+      "description": "More tasks here"
     }
   ],
   "BOT_LINK": "https://t.me/CotRov_bot/"
