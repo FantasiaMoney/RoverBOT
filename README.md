@@ -5,7 +5,6 @@
 
 ```
 BOT_TOKEN=
-BSC_PROVIDER=
 ```
 
 # run bot
