@@ -1,0 +1,9 @@
+{
+  "TASKS":[
+    {
+      "link": "https://bitcointalk.org/index.php?topic=5377944.0",
+      "description": "Make comment in our BitcoinTalk announcement"
+    }
+  ],
+  "BOT_LINK": "https://t.me/CotRov_bot/"
+}
