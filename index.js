@@ -8,9 +8,7 @@ const TelegramBot = require('node-telegram-bot-api')
 // bot comands
 const {
   Start,
-  Price,
-  Swap,
-  Vote
+  Tasks
 } = require('./commands')
 
 // replace the value below with the Telegram token you receive from @BotFather
@@ -21,9 +19,7 @@ const bot = new TelegramBot(token, {polling: true})
 
 // Handle commands
 bot.onText(/\/start/, msg => Start(bot, msg))
-bot.onText(/\/price/, msg => Price(bot, msg))
-bot.onText(/\/swap/, msg => Swap(bot, msg))
-bot.onText(/\/vote/, msg => Vote(bot, msg))
+bot.onText(/\/tasks/, msg => Tasks(bot, msg))
 
 // Handle errors
 const onError = (error, type = 'Error') => {

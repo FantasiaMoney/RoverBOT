@@ -1,11 +1,7 @@
 const Start = require('./start')
-const Price = require('./price')
-const Swap = require('./swap')
-const Vote = require('./vote')
+const Tasks = require('./tasks')
 
 module.exports = {
   Start,
-  Price,
-  Swap,
-  Vote
+  Tasks
 }
